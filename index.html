@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Original+Surfer&effect=emboss' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <audio id="clip1">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
+  </audio>
+  <audio id="clip2">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
+  </audio>
+  <audio id="clip3">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
+  </audio>
+  <audio id="clip4">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
+  </audio>
+</head>
+
+<body>
+  <section id="section-1">
+    <div class="container">
+      <h1 id="main-header">SIMON</h1>
+      <h5 class="subhead">Test and train your memory skills with our great memory game!</h5>
+      <a href="#section-2"><div style="width:100%; height:100%"><button class="btn btn-dark btn-lg"> Play Now <i class="fas fa-play"></i>
+    </button> </div></a>
+    </div>
+  </section>
+  <hr>
+  <br>
+  <section id="section-2">
+    <div class="conttainer">
+      <div id="outer-circle">
+        <div id="topleft"></div>
+        <div id="topright"></div>
+        <div id="bottomleft"></div>
+        <div id="bottomright"></div>
+        <div id="inner-circle">
+          <div id="title" class="font-effect-emboss">SIMON!</div>
+          <div id="switches">
+            <input type="checkbox" class="toggle" id="on">
+            <button class="button" id="start">Start</button>
+            <input type="checkbox" class="toggle" id="strict">
+          </div>
+          <div class="text1">
+            <span>POWER</span><span>STRICT</span>
+          </div>
+          <div id="turn"></div>
+          <div class="text2">
+            COUNT
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/javascript/index.js"></script>
+
+</body>
+
+</html>
