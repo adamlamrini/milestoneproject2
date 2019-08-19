@@ -75,4 +75,5 @@ To run my code locally, and ensure that it perfectly works, the user should down
            The audios used in the game : https://s3.amazonaws.com/freecodecamp 
            
 3- Acknowledgements - My main idea was inspired from the actual simon game.
+                      Got the video idea from : https://www.youtube.com/watch?v=n_ec3eowFLQ
 
